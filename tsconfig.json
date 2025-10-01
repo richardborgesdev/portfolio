@@ -2,7 +2,17 @@
   // This file is not used in compilation. It is here just for a nice editor experience.
   "extends": "@docusaurus/tsconfig",
   "compilerOptions": {
-    "baseUrl": "."
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "types": ["node", "@docusaurus/types"]
   },
-  "exclude": [".docusaurus", "build"]
+  "exclude": [
+    ".docusaurus",
+    "build",
+    "node_modules",
+    "eslint.config.mjs",
+    "**/*.config.js",
+    "**/*.config.mjs",
+    ".yarn"
+  ]
 }
