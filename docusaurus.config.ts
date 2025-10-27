@@ -76,7 +76,7 @@ const config: Config = {
       title: 'Richard Borges',
       logo: {
         alt: 'Richard Borges Logo',
-        src: 'img/logo.svg',
+        src: 'img/avatar2dlogo.png',
       },
       items: [
         {
