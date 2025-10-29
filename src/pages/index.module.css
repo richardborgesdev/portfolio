@@ -3,6 +3,112 @@
  * and scoped locally.
  */
 
+/* Compact Header */
+.compactHeader {
+  padding: 2rem 0;
+  background: var(--ifm-color-primary-lightest);
+  border-bottom: 2px solid var(--ifm-color-primary-light);
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.profileSection {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.profilePhoto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--ifm-color-primary);
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.name {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+}
+
+.tagline {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--ifm-color-emphasis-700);
+  font-weight: 500;
+}
+
+.quickContact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  text-align: right;
+}
+
+.contactRow {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.contactRow span {
+  white-space: nowrap;
+}
+
+.portfolioLink {
+  background: var(--ifm-color-primary);
+  color: white !important;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.portfolioLink:hover {
+  background: var(--ifm-color-primary-dark);
+  text-decoration: none;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLink {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--ifm-color-primary-light);
+  border-radius: 15px;
+  transition: all 0.2s ease;
+}
+
+.socialLink:hover {
+  background: var(--ifm-color-primary);
+  color: white;
+  text-decoration: none;
+}
+
+/* Legacy styles - keeping for compatibility */
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -20,4 +126,401 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Resume Sections */
+.resumeSection {
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.resumeSection:last-child {
+  border-bottom: none;
+}
+
+.sectionTitle {
+  color: var(--ifm-color-primary);
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* Contact Information */
+.contactInfo {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  text-align: left;
+}
+
+.contactItem {
+  padding: 0.75rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+  border-left: 4px solid var(--ifm-color-primary);
+}
+
+.contactItem strong {
+  color: var(--ifm-color-primary);
+}
+
+/* Professional Summary */
+.summary {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.summary p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* Skills */
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skillCategory h3 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.skillBadge {
+  background: var(--ifm-color-primary);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Experience */
+.experienceList {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.experienceItem {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 12px;
+  border-left: 5px solid var(--ifm-color-primary);
+}
+
+.experienceHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.jobTitle {
+  color: var(--ifm-color-primary);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.degree {
+  color: var(--ifm-color-primary);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.period {
+  background: var(--ifm-color-primary-light);
+  color: var(--ifm-color-primary-dark);
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.companyInfo {
+  margin-bottom: 1rem;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 1.1rem;
+}
+
+.achievements {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.achievements li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.achievements li::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  color: var(--ifm-color-primary);
+  font-size: 0.8rem;
+}
+
+.details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.details li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.3rem;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.details li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--ifm-color-primary);
+}
+
+/* Education */
+.educationList {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.educationItem {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 12px;
+  border-left: 5px solid var(--ifm-color-success);
+}
+
+/* Projects */
+.projectsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projectItem {
+  padding: 1.5rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 12px;
+  border-top: 4px solid var(--ifm-color-secondary);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.projectItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.projectHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.projectName {
+  color: var(--ifm-color-secondary);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.projectLinks {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.projectLink {
+  font-size: 0.85rem;
+  padding: 0.3rem 0.6rem;
+  background: var(--ifm-color-secondary-light);
+  color: var(--ifm-color-secondary-dark);
+  border-radius: 12px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.projectLink:hover {
+  background: var(--ifm-color-secondary);
+  color: white;
+  text-decoration: none;
+}
+
+.projectDescription {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.technologies .skillBadge {
+  background: var(--ifm-color-secondary);
+  font-size: 0.8rem;
+}
+
+/* Certifications */
+.certifications {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.certificationsList {
+  list-style: none;
+  padding: 0;
+}
+
+.certificationsList li {
+  position: relative;
+  padding: 1rem 1rem 1rem 3rem;
+  margin-bottom: 0.5rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+  border-left: 4px solid var(--ifm-color-warning);
+  line-height: 1.6;
+}
+
+.certificationsList li::before {
+  content: '🏆';
+  position: absolute;
+  left: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .headerContent {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .quickContact {
+    text-align: center;
+  }
+
+  .contactRow {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .socialLinks {
+    justify-content: center;
+  }
+
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .skillsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .projectsList {
+    grid-template-columns: 1fr;
+  }
+
+  .experienceHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .projectHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .resumeSection {
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profileSection {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .profilePhoto {
+    width: 90px;
+    height: 90px;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .contactRow {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .socialLinks {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .contactItem {
+    text-align: center;
+  }
+
+  .skillsList {
+    justify-content: center;
+  }
+
+  .technologies {
+    justify-content: center;
+  }
 }
