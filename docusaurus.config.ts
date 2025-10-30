@@ -54,6 +54,19 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'english-learning',
+        path: 'english-learning',
+        routeBasePath: 'english-learning',
+        sidebarPath: './english-learning-sidebars.ts',
+        editUrl: 'https://github.com/richardborgesdev/portfolio/tree/main/',
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -69,6 +82,13 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Curriculum',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'englishLearningSidebar',
+          position: 'left',
+          label: 'English Learning',
+          docsPluginId: 'english-learning',
         },
         // { to: '/blog', label: 'Blog', position: 'left' },
         {
