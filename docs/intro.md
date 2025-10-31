@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Welcome to My Portfolio
+# 📄 Welcome to My Portfolio
 
 Hello! I'm **Richard Borges**, a passionate software developer.
 
@@ -39,9 +39,10 @@ The site will be available at http://localhost:3000/.
 ## Contact
 
 Feel free to reach out to me through:
+
 - **GitHub**: [richardborgesdev](https://github.com/richardborgesdev)
 - **Email**: Contact me through GitHub
 
 ---
 
-*This portfolio is continuously updated with new projects and experiences.*
+_This portfolio is continuously updated with new projects and experiences._

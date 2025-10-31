@@ -58,10 +58,10 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'english-learning',
-        path: 'english-learning',
-        routeBasePath: 'english-learning',
-        sidebarPath: './english-learning-sidebars.ts',
+        id: 'learning-hubs',
+        path: 'learning-hubs',
+        routeBasePath: 'learning-hubs',
+        sidebarPath: './learning-hubs-sidebars.ts',
         editUrl: 'https://github.com/richardborgesdev/portfolio/tree/main/',
       },
     ],
@@ -81,14 +81,14 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Curriculum',
+          label: '📄 Curriculum',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'englishLearningSidebar',
+          sidebarId: 'learningHubsSidebar',
           position: 'left',
-          label: 'English Learning',
-          docsPluginId: 'english-learning',
+          label: '📚 Learning Hubs',
+          docsPluginId: 'learning-hubs',
         },
         // { to: '/blog', label: 'Blog', position: 'left' },
         {
