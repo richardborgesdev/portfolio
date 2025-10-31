@@ -1,0 +1,3 @@
+[submodule "english-hub"]
+	path = english-hub
+	url = https://github.com/richardborgesdev/english-hub.git
