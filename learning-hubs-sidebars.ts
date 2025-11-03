@@ -6,7 +6,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: '🇺🇸 English',
-      collapsed: false,
+      collapsed: true,
       items: [
         'english-hub/README',
         'english-hub/CHEAT_SHEET',
@@ -15,6 +15,12 @@ const sidebars: SidebarsConfig = {
         'english-hub/CAMBLY',
         'english-hub/THE_ENGLISH_MASTER_COURSE',
       ],
+    },
+    {
+      type: 'category',
+      label: '🌐 Web Development',
+      collapsed: true,
+      items: ['web-hub/README'],
     },
     // Future learning hubs can be added here
     // {

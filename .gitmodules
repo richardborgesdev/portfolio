@@ -1,3 +1,6 @@
-[submodule "english-hub"]
-	path = english-hub
+[submodule "learning-hubs/english-hub"]
+	path = learning-hubs/english-hub
 	url = https://github.com/richardborgesdev/english-hub.git
+[submodule "learning-hubs/web-hub"]
+	path = learning-hubs/web-hub
+	url = https://github.com/richardborgesdev/web-hub.git

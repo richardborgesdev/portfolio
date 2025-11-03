@@ -17,6 +17,15 @@ Comprehensive English learning resources, grammar guides, and progress tracking.
 - **Course Notes** - Notes from Busuu, Cambly, and other platforms
 - **Progress Tracking** - Goals, achievements, and learning milestones
 
+### 🌐 Web Development Hub
+
+Collection of web development courses, projects, and practical implementations.
+
+- **React Projects** - Complete React course projects from Academind
+- **Vue.js Applications** - Vue 2 & 3 projects and learning materials
+- **Full-Stack Development** - Various web development frameworks and tools
+- **Free Code Camp** - Certification projects and exercises
+
 ### 📚 Always Learning
 
 General learning repository with courses, projects, and study materials across various topics.
