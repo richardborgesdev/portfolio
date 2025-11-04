@@ -22,6 +22,12 @@ const sidebars: SidebarsConfig = {
       collapsed: true,
       items: ['web-hub/README'],
     },
+    {
+      type: 'category',
+      label: '🎨 Design',
+      collapsed: true,
+      items: ['design-hub/README'],
+    },
     // Future learning hubs can be added here
     // {
     //   type: 'category',
