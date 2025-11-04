@@ -26,6 +26,15 @@ Collection of web development courses, projects, and practical implementations.
 - **Full-Stack Development** - Various web development frameworks and tools
 - **Free Code Camp** - Certification projects and exercises
 
+### 🎨 Design Hub
+
+Design learning resources, tutorials, and inspiration from industry experts.
+
+- **Design Influencers** - Curated list of design experts and thought leaders
+- **Learning Organizations** - Educational institutions and design foundations
+- **Design Principles** - Core concepts and best practices
+- **Inspiration & Resources** - Tools and references for creative projects
+
 ### 📚 Always Learning
 
 General learning repository with courses, projects, and study materials across various topics.
@@ -47,4 +56,4 @@ These learning hubs are open source! Feel free to:
 
 ---
 
-_Last updated: October 2024_
+_Last updated: November 2024_
