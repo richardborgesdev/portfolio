@@ -7,3 +7,6 @@
 [submodule "learning-hubs/design-hub"]
 	path = learning-hubs/design-hub
 	url = https://github.com/richardborgesdev/design-hub.git
+[submodule "learning-hubs/mobile-hub"]
+	path = learning-hubs/mobile-hub
+	url = https://github.com/richardborgesdev/mobile-hub.git
