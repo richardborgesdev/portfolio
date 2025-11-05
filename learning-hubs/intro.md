@@ -35,11 +35,14 @@ Design learning resources, tutorials, and inspiration from industry experts.
 - **Design Principles** - Core concepts and best practices
 - **Inspiration & Resources** - Tools and references for creative projects
 
-### 📚 Always Learning
+### 📱 Mobile Development
 
-General learning repository with courses, projects, and study materials across various topics.
+Mobile app development courses and projects for iOS and Android platforms.
 
-_More learning hubs will be added as they are integrated..._
+- **React Native Projects** - Complete React Native course implementations
+- **Flutter Applications** - Dart and Flutter development projects
+- **Mobile Experts** - Industry leaders and educational content creators
+- **Platform Resources** - Official documentation and development tools
 
 ## How to Navigate
 

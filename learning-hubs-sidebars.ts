@@ -28,6 +28,12 @@ const sidebars: SidebarsConfig = {
       collapsed: true,
       items: ['design-hub/README'],
     },
+    {
+      type: 'category',
+      label: '📱 Mobile Development',
+      collapsed: true,
+      items: ['mobile-hub/README'],
+    },
     // Future learning hubs can be added here
     // {
     //   type: 'category',
