@@ -34,6 +34,12 @@ const sidebars: SidebarsConfig = {
       collapsed: true,
       items: ['mobile-hub/README'],
     },
+    {
+      type: 'category',
+      label: '🎮 Game Development',
+      collapsed: true,
+      items: ['games-hub/README'],
+    },
     // Future learning hubs can be added here
     // {
     //   type: 'category',
