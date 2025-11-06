@@ -35,7 +35,7 @@ Design learning resources, tutorials, and inspiration from industry experts.
 - **Design Principles** - Core concepts and best practices
 - **Inspiration & Resources** - Tools and references for creative projects
 
-### 📱 Mobile Development
+### 📱 Mobile Development Hub
 
 Mobile app development courses and projects for iOS and Android platforms.
 
@@ -43,6 +43,21 @@ Mobile app development courses and projects for iOS and Android platforms.
 - **Flutter Applications** - Dart and Flutter development projects
 - **Mobile Experts** - Industry leaders and educational content creators
 - **Platform Resources** - Official documentation and development tools
+
+### 🎮 Game Development Hub
+
+Game development learning resources, engines, and interactive project implementations.
+
+- **Game Engines** - Unity, Unreal Engine, and other development platforms
+- **Programming Languages** - C#, C++, and game-specific scripting
+- **Game Design Principles** - Mechanics, storytelling, and user experience
+- **Interactive Projects** - Hands-on game development exercises and tutorials
+
+### 📚 Always Learning
+
+General learning repository with courses, projects, and study materials across various topics.
+
+_More learning hubs will be added as they are integrated..._
 
 ## How to Navigate
 

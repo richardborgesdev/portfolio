@@ -10,3 +10,6 @@
 [submodule "learning-hubs/mobile-hub"]
 	path = learning-hubs/mobile-hub
 	url = https://github.com/richardborgesdev/mobile-hub.git
+[submodule "learning-hubs/games-hub"]
+	path = learning-hubs/games-hub
+	url = https://github.com/richardborgesdev/games-hub.git
