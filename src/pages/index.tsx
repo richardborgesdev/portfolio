@@ -28,18 +28,18 @@ function CompactHeader() {
           </div>
           <div className={styles.quickContact}>
             <div className={styles.contactRow}>
-              <span>📧 richard.borges@example.com</span>
-              <span>📱 +1 (555) 123-4567</span>
+              <span>📧 rbdevcontact@gmail.com</span>
+              <span>📍 Joinville, Santa Catarina, Brazil</span>
             </div>
             <div className={styles.contactRow}>
-              <span>📍 San Francisco, CA</span>
+              <span>🇺🇸 Duolingo English Fluency: Advanced</span>
               <Link className={styles.portfolioLink} to="/docs/intro">
                 View Portfolio 🚀
               </Link>
             </div>
             <div className={styles.socialLinks}>
               <Link
-                to="https://linkedin.com/in/richardborges"
+                to="https://www.linkedin.com/in/richardborgesdev"
                 className={styles.socialLink}
               >
                 LinkedIn
@@ -194,70 +194,102 @@ function ProjectItem({
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
 
-  // Sample data - replace with your actual information
   const skills = {
     frontend: [
       'React',
       'TypeScript',
-      'Next.js',
-      'Vue.js',
+      'JavaScript',
       'HTML/CSS',
-      'Tailwind CSS',
+      'Vue.js',
+      'Frontend Architecture',
     ],
     backend: [
       'Node.js',
-      'Python',
-      'Express.js',
-      'Django',
-      'PostgreSQL',
-      'MongoDB',
+      'Full Stack Development',
+      'API Development',
+      'Database Design',
+      'System Architecture',
+      'BPM/ECM/EQM',
     ],
-    tools: ['Git', 'Docker', 'AWS', 'CI/CD', 'Jest', 'Webpack'],
+    tools: ['Git', 'Scrum', 'Agile', 'Technical Leadership', 'Mentoring'],
     soft: [
       'Team Leadership',
-      'Problem Solving',
+      'Career Counseling',
+      'Project Management',
       'Communication',
-      'Agile/Scrum',
     ],
   };
 
   const experiences = [
     {
-      title: 'Senior Software Developer',
-      company: 'Tech Company Inc.',
-      location: 'Remote',
-      period: 'Jan 2022 - Present',
+      title: 'Senior Frontend Engineer',
+      company: 'Conta Azul',
+      location: 'Joinville Region, Brazil',
+      period: 'November 2019 - Present (6 years 1 month)',
       description: [
-        'Led development of React-based web applications serving 10,000+ users',
-        'Implemented CI/CD pipelines reducing deployment time by 60%',
-        'Mentored junior developers and conducted code reviews',
-        'Collaborated with product team to define technical requirements',
+        'Development of Conta Azul Mais products for accountants and receivables anticipation',
+        'Organization of company frontend demands (maintaining active forum among frontend developers, technical evolution backlog, career development suggestions)',
+        'Technical leadership and mentoring of frontend developers',
+        'Architecture and implementation of scalable solutions for financial products',
+      ],
+    },
+    {
+      title: 'Mentor',
+      company: 'Codenation',
+      location: 'Joinville, Santa Catarina',
+      period: 'March 2020 - June 2020 (4 months)',
+      description: [
+        'Mentoring participants of AceleraDev, the developer and data scientist acceleration program by Codenation',
+        'Monitoring and providing feedback to program participants',
+        'Support for programming questions from mentees',
+        'Career guidance and professional development',
       ],
     },
     {
       title: 'Full Stack Developer',
-      company: 'Startup Solutions',
-      location: 'San Francisco, CA',
-      period: 'Jun 2020 - Dec 2021',
+      company: 'SoftExpert - Software for Excellence',
+      location: 'Joinville Region, Brazil',
+      period: 'March 2013 - November 2019 (6 years 9 months)',
       description: [
-        'Built and maintained RESTful APIs using Node.js and Express',
-        'Developed responsive web interfaces with React and TypeScript',
-        'Optimized database queries improving application performance by 40%',
-        'Participated in agile development process and sprint planning',
+        'Development of document management (ECM), process management and automation (BPM), and enterprise quality (EQM) products',
+        'Served as technical leader and scrum master for 1 year',
+        'Full-stack development focused on enterprise solutions',
+        'Team leadership and agile project management',
       ],
     },
   ];
 
   const education = [
     {
-      degree: 'Bachelor of Science in Computer Science',
-      institution: 'University of Technology',
-      location: 'City, State',
-      period: '2016 - 2020',
+      degree: 'Postgraduate in Web Technologies and Innovations',
+      institution: 'Centro Universitário Senac',
+      location: 'Santa Catarina, Brazil',
+      period: '2016 - 2018',
       details: [
-        'Graduated Magna Cum Laude (GPA: 3.8/4.0)',
-        'Relevant Coursework: Data Structures, Algorithms, Software Engineering',
-        "Dean's List for 6 semesters",
+        'Specialization in web technologies and applications',
+        'Focus on modern frontend and backend development',
+      ],
+    },
+    {
+      degree: 'Bachelor of Computer Science',
+      institution: 'State University of Santa Catarina (UDESC)',
+      location: 'Santa Catarina, Brazil',
+      period: '2009 - 2013',
+      details: [
+        'Specialization in Collaborative Systems',
+        'Research in cooperative systems with mobility support',
+        'Scientific publication on cache coherence in cooperative systems',
+      ],
+    },
+    {
+      degree: 'Computer Technician',
+      institution:
+        'UNISOCIESC - Educational Society University of Santa Catarina',
+      location: 'Santa Catarina, Brazil',
+      period: '2007 - 2008',
+      details: [
+        'Technical training in hardware and software',
+        'Solid foundation in computer fundamentals',
       ],
     },
   ];
@@ -299,12 +331,14 @@ export default function Home(): ReactNode {
         <ResumeSection title="Professional Summary">
           <div className={styles.summary}>
             <p>
-              Passionate Full Stack Developer with 4+ years of experience
-              building scalable web applications and leading cross-functional
-              teams. Expertise in React, Node.js, and cloud technologies. Proven
-              track record of delivering high-quality solutions that improve
-              user experience and drive business growth. Strong advocate for
-              clean code, best practices, and continuous learning.
+              I discovered my passion for working with computers since my first
+              typing course (1999) at 8 years old, driven by curiosity about how
+              things work and technological fascination. Today, graduated as a
+              computer technician from Escola Técnica Tupy (2008), with a
+              bachelor&apos;s degree in Computer Science from UDESC (2013) and a
+              postgraduate degree in web technologies and applications from
+              SENAC (2018), I remain passionate about the field and always
+              inspired to find new ways to acquire knowledge.
             </p>
           </div>
         </ResumeSection>
@@ -399,14 +433,15 @@ export default function Home(): ReactNode {
         <ResumeSection title="Certifications & Achievements">
           <div className={styles.certifications}>
             <ul className={styles.certificationsList}>
-              <li>AWS Certified Solutions Architect - Associate (2023)</li>
-              <li>Google Cloud Professional Developer (2022)</li>
-              <li>React Developer Certification - Meta (2022)</li>
+              <li>Duolingo English Fluency: Advanced (estimated)</li>
               <li>
-                Speaker at TechConf 2023: &quot;Building Scalable React
-                Applications&quot;
+                Scientific Publication: &quot;EVALUATION OF A STRATEGY TO ENSURE
+                CACHE COHERENCE AND PERCEPTION IN COOPERATIVE SYSTEMS WITH
+                MOBILITY SUPPORT&quot;
               </li>
-              <li>Open Source Contributor - 500+ GitHub contributions</li>
+              <li>Certified Mentor - AceleraDev Codenation Program</li>
+              <li>Experienced Technical Leader and Scrum Master</li>
+              <li>Organizer of technical forums and career development</li>
             </ul>
           </div>
         </ResumeSection>
