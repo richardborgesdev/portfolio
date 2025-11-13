@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import StructuredData from '@site/src/components/StructuredData';
 
 import styles from './index.module.css';
 
@@ -322,9 +323,10 @@ export default function Home(): ReactNode {
 
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="Richard Borges - Software Developer Portfolio"
+      title={`${siteConfig.title} - Senior Frontend Engineer`}
+      description="Portfolio of Richard Borges - Senior Frontend Engineer with 6+ years of experience in React, TypeScript, and modern web technologies. Technical leader and mentor from Joinville, Brazil."
     >
+      <StructuredData />
       <CompactHeader />
       <main>
         {/* Professional Summary */}
