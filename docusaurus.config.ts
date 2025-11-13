@@ -6,31 +6,29 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Richard Borges',
-  tagline: 'Software Developer & Tech Enthusiast',
+  tagline: 'Senior Frontend Engineer & Tech Enthusiast',
   favicon: 'img/favicon.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
-
-  // Set the production url of your site here
+  // SEO and Social Media Metadata
   url: 'https://richardborgesdev.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/portfolio/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'richardborgesdev', // Usually your GitHub org/user name.
-  projectName: 'portfolio', // Usually your repo name.
-
+  // Enhanced metadata for social sharing
   onBrokenLinks: 'throw',
 
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: 'warn',
     },
+  },
+
+  // GitHub pages deployment config
+  organizationName: 'richardborgesdev',
+  projectName: 'portfolio',
+
+  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+  future: {
+    v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
   // Even if you don't use internationalization, you can use this field to set
@@ -73,8 +71,83 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // Enhanced social media metadata
+    image: 'img/social-card.png', // We'll create this image
+    metadata: [
+      {
+        name: 'description',
+        content:
+          'Portfolio of Richard Borges - Senior Frontend Engineer specializing in React, TypeScript, and modern web technologies. Based in Joinville, Brazil.',
+      },
+      {
+        name: 'keywords',
+        content:
+          'Richard Borges, Frontend Engineer, React, TypeScript, JavaScript, Web Development, Portfolio, Software Developer, Brazil',
+      },
+      {
+        name: 'author',
+        content: 'Richard Borges',
+      },
+      // Open Graph metadata
+      {
+        property: 'og:title',
+        content: 'Richard Borges - Senior Frontend Engineer',
+      },
+      {
+        property: 'og:description',
+        content:
+          'Senior Frontend Engineer with 6+ years of experience in React, TypeScript, and modern web technologies. Technical leader and mentor passionate about clean code and continuous learning.',
+      },
+      {
+        property: 'og:image',
+        content:
+          'https://richardborgesdev.github.io/portfolio/img/social-card.png',
+      },
+      {
+        property: 'og:image:alt',
+        content: 'Richard Borges - Senior Frontend Engineer Portfolio',
+      },
+      {
+        property: 'og:url',
+        content: 'https://richardborgesdev.github.io/portfolio/',
+      },
+      {
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        property: 'og:site_name',
+        content: 'Richard Borges Portfolio',
+      },
+      // Twitter Card metadata
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        name: 'twitter:title',
+        content: 'Richard Borges - Senior Frontend Engineer',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Senior Frontend Engineer with expertise in React, TypeScript, and modern web technologies. Technical leader and mentor from Brazil.',
+      },
+      {
+        name: 'twitter:image',
+        content:
+          'https://richardborgesdev.github.io/portfolio/img/social-card.png',
+      },
+      {
+        name: 'twitter:image:alt',
+        content: 'Richard Borges Portfolio',
+      },
+      // LinkedIn and professional networks
+      {
+        property: 'article:author',
+        content: 'https://www.linkedin.com/in/richardborgesdev',
+      },
+    ],
     navbar: {
       title: 'Richard Borges',
       logo: {
