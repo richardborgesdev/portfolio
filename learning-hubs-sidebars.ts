@@ -40,6 +40,63 @@ const sidebars: SidebarsConfig = {
       collapsed: true,
       items: ['games-hub/README'],
     },
+    {
+      type: 'category',
+      label: '🏗️ Software Architecture',
+      collapsed: true,
+      items: [
+        'architecture-hub/README',
+        'architecture-hub/GETTING-STARTED',
+        {
+          type: 'category',
+          label: '📚 Fundamentals',
+          collapsed: true,
+          items: [
+            'architecture-hub/fundamentals/principles',
+            'architecture-hub/fundamentals/patterns',
+            'architecture-hub/fundamentals/system-design',
+            'architecture-hub/fundamentals/adr',
+          ],
+        },
+        {
+          type: 'category',
+          label: '⚛️ Frontend Architecture',
+          collapsed: true,
+          items: [
+            'architecture-hub/frontend/fundamentals',
+            'architecture-hub/frontend/component-architecture',
+            'architecture-hub/frontend/app-structure',
+            'architecture-hub/frontend/state-management',
+            'architecture-hub/frontend/design-systems',
+            'architecture-hub/frontend/micro-frontends',
+            'architecture-hub/frontend/performance',
+          ],
+        },
+        {
+          type: 'category',
+          label: '🎨 Design Patterns',
+          collapsed: true,
+          items: [
+            'architecture-hub/patterns/creational',
+            'architecture-hub/patterns/structural',
+            'architecture-hub/patterns/behavioral',
+            'architecture-hub/patterns/frontend-patterns',
+          ],
+        },
+        {
+          type: 'category',
+          label: '📖 Case Studies',
+          collapsed: true,
+          items: ['architecture-hub/case-studies/README'],
+        },
+        {
+          type: 'category',
+          label: '💻 Examples',
+          collapsed: true,
+          items: ['architecture-hub/examples/README'],
+        },
+      ],
+    },
     // Future learning hubs can be added here
     // {
     //   type: 'category',

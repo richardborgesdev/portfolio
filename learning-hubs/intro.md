@@ -53,6 +53,15 @@ Game development learning resources, engines, and interactive project implementa
 - **Game Design Principles** - Mechanics, storytelling, and user experience
 - **Interactive Projects** - Hands-on game development exercises and tutorials
 
+### 🏗️ Software Architecture Hub
+
+Software architecture principles, patterns, and best practices with frontend focus.
+
+- **Architecture Patterns** - MVC, MVVM, Clean Architecture, and more
+- **Frontend Architecture** - Component design, state management, and scalability
+- **Design Principles** - SOLID, DRY, KISS, and other fundamental principles
+- **Best Practices** - Code organization, testing strategies, and maintainability
+
 ### 📚 Always Learning
 
 General learning repository with courses, projects, and study materials across various topics.
