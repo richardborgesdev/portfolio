@@ -62,6 +62,15 @@ Software architecture principles, patterns, and best practices with frontend foc
 - **Design Principles** - SOLID, DRY, KISS, and other fundamental principles
 - **Best Practices** - Code organization, testing strategies, and maintainability
 
+### 👔 Staff Engineering Hub
+
+Staff Engineer role and responsibilities with frontend focus.
+
+- **Technical Leadership** - Architecture, design systems, and technical strategy
+- **Cross-Team Impact** - Mentorship, collaboration, and knowledge sharing
+- **Strategic Initiatives** - Technical roadmap, innovation, and problem solving
+- **Key Competencies** - Frontend fundamentals, frameworks, and best practices
+
 ### 📚 Always Learning
 
 General learning repository with courses, projects, and study materials across various topics.
