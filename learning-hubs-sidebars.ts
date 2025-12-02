@@ -97,6 +97,12 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: '👔 Staff Engineering',
+      collapsed: true,
+      items: ['staff-hub/README'],
+    },
     // Future learning hubs can be added here
     // {
     //   type: 'category',
