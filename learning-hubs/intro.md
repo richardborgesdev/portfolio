@@ -71,6 +71,15 @@ Staff Engineer role and responsibilities with frontend focus.
 - **Strategic Initiatives** - Technical roadmap, innovation, and problem solving
 - **Key Competencies** - Frontend fundamentals, frameworks, and best practices
 
+### ☁️ Cloud Architecture Hub
+
+Frontend cloud architecture leveraging cloud services for modern web applications.
+
+- **Static Website Hosting** - S3, Amplify Hosting, and deployment strategies
+- **Content Delivery Network** - CloudFront, edge locations, and global distribution
+- **Serverless Computing** - Lambda functions, API backends, and edge computing
+- **Cloud Services** - AWS and similar platforms for frontend workflows
+
 ### 📚 Always Learning
 
 General learning repository with courses, projects, and study materials across various topics.

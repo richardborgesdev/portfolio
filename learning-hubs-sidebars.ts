@@ -103,6 +103,12 @@ const sidebars: SidebarsConfig = {
       collapsed: true,
       items: ['staff-hub/README'],
     },
+    {
+      type: 'category',
+      label: '☁️ Cloud Architecture',
+      collapsed: true,
+      items: ['cloud-hub/README'],
+    },
     // Future learning hubs can be added here
     // {
     //   type: 'category',

@@ -19,3 +19,6 @@
 [submodule "learning-hubs/staff-hub"]
 	path = learning-hubs/staff-hub
 	url = https://github.com/richardborgesdev/staff-hub.git
+[submodule "learning-hubs/cloud-hub"]
+	path = learning-hubs/cloud-hub
+	url = https://github.com/richardborgesdev/cloud-hub.git
