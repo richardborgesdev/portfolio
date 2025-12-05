@@ -4,27 +4,90 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* Coolors Grayscale Palette Theme */
+/* Colors: https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529 */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Primary colors - medium-dark grays */
+  --ifm-color-primary: #495057;
+  --ifm-color-primary-dark: #343a40;
+  --ifm-color-primary-darker: #2c3136;
+  --ifm-color-primary-darkest: #212529;
+  --ifm-color-primary-light: #6c757d;
+  --ifm-color-primary-lighter: #adb5bd;
+  --ifm-color-primary-lightest: #ced4da;
+
+  /* Background colors */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8f9fa;
+
+  /* Text colors */
+  --ifm-font-color-base: #212529;
+  --ifm-font-color-secondary: #6c757d;
+
+  /* Link colors */
+  --ifm-link-color: #495057;
+  --ifm-link-hover-color: #212529;
+
+  /* Code blocks */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-code-background: #f8f9fa;
+  --ifm-code-color: #212529;
+  --docusaurus-highlighted-code-line-bg: rgba(222, 226, 230, 0.5);
+
+  /* Borders */
+  --ifm-color-emphasis-300: #dee2e6;
+  --ifm-color-emphasis-500: #adb5bd;
+  --ifm-color-emphasis-700: #6c757d;
+
+  /* Hover and active states */
+  --ifm-hover-overlay: rgba(206, 212, 218, 0.3);
+
+  /* Alert colors - grayscale variations */
+  --ifm-color-info: #6c757d;
+  --ifm-color-success: #495057;
+  --ifm-color-warning: #adb5bd;
+  --ifm-color-danger: #343a40;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode - inverted coolors palette */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* Primary colors - light grays for dark mode */
+  --ifm-color-primary: #adb5bd;
+  --ifm-color-primary-dark: #9ba3ab;
+  --ifm-color-primary-darker: #8d96a0;
+  --ifm-color-primary-darkest: #6c757d;
+  --ifm-color-primary-light: #ced4da;
+  --ifm-color-primary-lighter: #dee2e6;
+  --ifm-color-primary-lightest: #e9ecef;
+
+  /* Background colors */
+  --ifm-background-color: #212529;
+  --ifm-background-surface-color: #343a40;
+
+  /* Text colors */
+  --ifm-font-color-base: #f8f9fa;
+  --ifm-font-color-secondary: #adb5bd;
+
+  /* Link colors */
+  --ifm-link-color: #ced4da;
+  --ifm-link-hover-color: #f8f9fa;
+
+  /* Code blocks */
+  --ifm-code-background: #343a40;
+  --ifm-code-color: #f8f9fa;
+  --docusaurus-highlighted-code-line-bg: rgba(108, 117, 125, 0.3);
+
+  /* Borders */
+  --ifm-color-emphasis-300: #495057;
+  --ifm-color-emphasis-500: #6c757d;
+  --ifm-color-emphasis-700: #adb5bd;
+
+  /* Hover and active states */
+  --ifm-hover-overlay: rgba(108, 117, 125, 0.2);
+
+  /* Alert colors - grayscale variations */
+  --ifm-color-info: #adb5bd;
+  --ifm-color-success: #ced4da;
+  --ifm-color-warning: #6c757d;
+  --ifm-color-danger: #dee2e6;
 }
