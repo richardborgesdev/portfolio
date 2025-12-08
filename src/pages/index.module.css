@@ -42,7 +42,7 @@
   margin: 0;
   font-size: 2rem;
   font-weight: 700;
-  color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-darker);
 }
 
 .tagline {
@@ -63,7 +63,7 @@
   display: flex;
   gap: 1.5rem;
   font-size: 0.9rem;
-  color: var(--ifm-color-emphasis-700);
+  color: var(--ifm-color-emphasis-500);
 }
 
 .contactRow span {
@@ -180,7 +180,7 @@
 .summary p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: var(--ifm-color-emphasis-700);
+  color: var(--ifm-color-emphasis-500);
 }
 
 /* Skills */
@@ -391,7 +391,7 @@
 .projectDescription {
   margin-bottom: 1rem;
   line-height: 1.6;
-  color: var(--ifm-color-emphasis-700);
+  color: var(--ifm-color-emphasis-500);
 }
 
 .technologies {
