@@ -255,7 +255,7 @@
 
 .period {
   background: var(--ifm-color-primary-light);
-  color: var(--ifm-color-primary-dark);
+  color: var(--ifm-link-color);
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
   font-size: 0.9rem;

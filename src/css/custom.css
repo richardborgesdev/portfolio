@@ -47,6 +47,27 @@
   --ifm-color-success: #495057;
   --ifm-color-warning: #adb5bd;
   --ifm-color-danger: #343a40;
+
+  /* High-contrast variables */
+  --ifm-color-primary: #212529;
+  --ifm-color-primary-dark: #111418;
+  --ifm-color-primary-darker: #000000;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #495057;
+  --ifm-color-primary-lighter: #6c757d;
+  --ifm-color-primary-lightest: #f8f9fa;
+
+  --ifm-font-color-base: #111;
+  --ifm-font-color-secondary: #495057;
+
+  --ifm-link-color: #212529;
+  --ifm-link-hover-color: #111418;
+
+  --ifm-color-secondary: #6c757d;
+  --ifm-color-success: #198754;
+  --ifm-color-info: #0dcaf0;
+  --ifm-color-warning: #ffc107;
+  --ifm-color-danger: #dc3545;
 }
 
 /* Dark mode - inverted coolors palette */
@@ -90,4 +111,25 @@
   --ifm-color-success: #ced4da;
   --ifm-color-warning: #6c757d;
   --ifm-color-danger: #dee2e6;
+
+  /* High-contrast variables */
+  --ifm-color-primary: #f8f9fa;
+  --ifm-color-primary-dark: #dee2e6;
+  --ifm-color-primary-darker: #adb5bd;
+  --ifm-color-primary-darkest: #6c757d;
+  --ifm-color-primary-light: #ffffff;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+
+  --ifm-font-color-base: #f8f9fa;
+  --ifm-font-color-secondary: #adb5bd;
+
+  --ifm-link-color: #000000;
+  --ifm-link-hover-color: #dee2e6;
+
+  --ifm-color-secondary: #adb5bd;
+  --ifm-color-success: #51cf66;
+  --ifm-color-info: #66d9e8;
+  --ifm-color-warning: #ffe066;
+  --ifm-color-danger: #ff6b6b;
 }
