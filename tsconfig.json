@@ -13,6 +13,7 @@
     "eslint.config.mjs",
     "**/*.config.js",
     "**/*.config.mjs",
-    ".yarn"
+    ".yarn",
+    "learning-hubs/hubs"
   ]
 }

@@ -9,7 +9,15 @@ import prettier from 'eslint-plugin-prettier';
 import prettierConfig from 'eslint-config-prettier';
 
 export default tseslint.config(
-  { ignores: ['dist', 'build', '.docusaurus', 'node_modules'] },
+  {
+    ignores: [
+      'dist',
+      'build',
+      '.docusaurus',
+      'node_modules',
+      'learning-hubs/hubs',
+    ],
+  },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ['**/*.{ts,tsx,js,jsx}'],
