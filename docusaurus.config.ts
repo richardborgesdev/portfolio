@@ -1,6 +1,12 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import {
+  LEARNING_HUBS_EXCLUDE,
+  hubsSidebarItemsGenerator,
+  learningHubsEditUrl,
+  remarkHubsLinks,
+} from './learning-hubs.config';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -17,6 +23,8 @@ const config: Config = {
   onBrokenLinks: 'throw',
 
   markdown: {
+    // Read .md as CommonMark (like GitHub) and only .mdx as MDX
+    format: 'detect',
     hooks: {
       onBrokenMarkdownLinks: 'warn',
     },
@@ -65,7 +73,10 @@ const config: Config = {
         path: 'learning-hubs',
         routeBasePath: 'learning-hubs',
         sidebarPath: './learning-hubs-sidebars.ts',
-        editUrl: 'https://github.com/richardborgesdev/portfolio/tree/main/',
+        exclude: LEARNING_HUBS_EXCLUDE,
+        sidebarItemsGenerator: hubsSidebarItemsGenerator,
+        beforeDefaultRemarkPlugins: [remarkHubsLinks],
+        editUrl: learningHubsEditUrl,
       },
     ],
   ],

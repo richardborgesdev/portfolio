@@ -1,24 +1,3 @@
-[submodule "learning-hubs/english-hub"]
-	path = learning-hubs/english-hub
-	url = https://github.com/richardborgesdev/english-hub.git
-[submodule "learning-hubs/web-hub"]
-	path = learning-hubs/web-hub
-	url = https://github.com/richardborgesdev/web-hub.git
-[submodule "learning-hubs/design-hub"]
-	path = learning-hubs/design-hub
-	url = https://github.com/richardborgesdev/design-hub.git
-[submodule "learning-hubs/mobile-hub"]
-	path = learning-hubs/mobile-hub
-	url = https://github.com/richardborgesdev/mobile-hub.git
-[submodule "learning-hubs/games-hub"]
-	path = learning-hubs/games-hub
-	url = https://github.com/richardborgesdev/games-hub.git
-[submodule "learning-hubs/architecture-hub"]
-	path = learning-hubs/architecture-hub
-	url = https://github.com/richardborgesdev/architecture-hub.git
-[submodule "learning-hubs/staff-hub"]
-	path = learning-hubs/staff-hub
-	url = https://github.com/richardborgesdev/staff-hub.git
-[submodule "learning-hubs/cloud-hub"]
-	path = learning-hubs/cloud-hub
-	url = https://github.com/richardborgesdev/cloud-hub.git
+[submodule "learning-hubs/hubs"]
+	path = learning-hubs/hubs
+	url = https://github.com/richardborgesdev/hubs.git

@@ -25,3 +25,6 @@ package-lock.json
 
 # OS
 .DS_Store
+
+# Learning Hubs content (hubs submodule)
+learning-hubs/hubs
